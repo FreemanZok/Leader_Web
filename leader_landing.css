@@ -1,0 +1,401 @@
+/*Reset CSS*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+margin: 0;
+padding: 0;
+border: 0;
+font-size: 100%;
+font: inherit;
+vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+display: block;
+}
+
+body {
+line-height: 1;
+}
+ol, ul {
+list-style: none;
+}
+blockquote, q {
+quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+content: '';
+content: none;
+}
+table {
+border-collapse: collapse;
+border-spacing: 0;
+}
+
+
+/*////////////////FONT FACE///////////////*/
+
+@font-face {
+    font-family: wf_3c71cc9591374920b133851de;
+    src: url("https://static.wixstatic.com/ufonts/375882_3c71cc9591374920b133851deb004b5b/woff/file.woff") format("woff"),
+    url("https://static.wixstatic.com/ufonts/375882_3c71cc9591374920b133851deb004b5b/woff2/file.woff2") format("woff2"),
+    url("https://static.wixstatic.com/ufonts/375882_3c71cc9591374920b133851deb004b5b/ttf/file.ttf") format("ttf");
+    }
+    @font-face {
+    font-family: wf_264aca6507744852b8712ac58;
+    src: url("https://static.wixstatic.com/ufonts/375882_264aca6507744852b8712ac58546099b/woff/file.woff") format("woff"),
+    url("https://static.wixstatic.com/ufonts/375882_264aca6507744852b8712ac58546099b/woff2/file.woff2") format("woff2"),
+    url("https://static.wixstatic.com/ufonts/375882_264aca6507744852b8712ac58546099b/ttf/file.ttf") format("ttf");
+    }
+    @font-face {
+    font-family: wf_7483188192624feca4d3c212e;
+    src: url("https://static.wixstatic.com/ufonts/375882_7483188192624feca4d3c212e2582be3/woff/file.woff") format("woff"),
+    url("https://static.wixstatic.com/ufonts/375882_7483188192624feca4d3c212e2582be3/woff2/file.woff2") format("woff2"),
+    url("https://static.wixstatic.com/ufonts/375882_7483188192624feca4d3c212e2582be3/ttf/file.ttf") format("ttf");
+    }
+    @font-face {
+    font-family: wf_a964a638e0bb4068b9b0ee3fb;
+    src: url("https://static.wixstatic.com/ufonts/375882_a964a638e0bb4068b9b0ee3fb0679dae/woff/file.woff") format("woff"),
+    url("https://static.wixstatic.com/ufonts/375882_a964a638e0bb4068b9b0ee3fb0679dae/woff2/file.woff2") format("woff2"),
+    url("https://static.wixstatic.com/ufonts/375882_a964a638e0bb4068b9b0ee3fb0679dae/ttf/file.ttf") format("ttf");
+    }
+    @font-face {
+    font-family: wf_cf7d97a20343496aae3290b27;
+    src: url("https://static.wixstatic.com/ufonts/375882_cf7d97a20343496aae3290b27a123c72/woff/file.woff") format("woff"),
+    url("https://static.wixstatic.com/ufonts/375882_cf7d97a20343496aae3290b27a123c72/woff2/file.woff2") format("woff2"),
+    url("https://static.wixstatic.com/ufonts/375882_cf7d97a20343496aae3290b27a123c72/ttf/file.ttf") format("ttf");
+    }
+    @font-face {
+    font-family: wf_31e831c0911a40c99db10dac0;
+    src: url("https://static.wixstatic.com/ufonts/375882_31e831c0911a40c99db10dac0fc7f43b/woff/file.woff") format("woff"),
+    url("https://static.wixstatic.com/ufonts/375882_31e831c0911a40c99db10dac0fc7f43b/woff2/file.woff2") format("woff2"),
+    url("https://static.wixstatic.com/ufonts/375882_31e831c0911a40c99db10dac0fc7f43b/ttf/file.ttf") format("ttf");
+    }
+    @font-face {
+    font-family: wf_2b088f24f6274a89b41c5419e;
+    src: url("https://static.wixstatic.com/ufonts/375882_2b088f24f6274a89b41c5419ef556f2b/woff/file.woff") format("woff"),
+    url("https://static.wixstatic.com/ufonts/375882_2b088f24f6274a89b41c5419ef556f2b/woff2/file.woff2") format("woff2"),
+    url("https://static.wixstatic.com/ufonts/375882_2b088f24f6274a89b41c5419ef556f2b/ttf/file.ttf") format("ttf");
+    }
+    
+    *{
+        box-sizing: border-box;
+    }
+/*////////////////START CODE///////////////*/
+
+body{
+    font-family: Arial,Helvetica,sans-serif;
+}
+
+header{
+        font-family: wf_2b088f24f6274a89b41c5419e;
+        background-image: url("img/0-2.jpg");
+        background-size: 100% 100%;
+        height: 969px;
+        padding: 1px 0;
+        margin-bottom: 100px;}
+
+header h1{
+    color:white;
+    font-size: 64px; 
+    font-weight: bold;
+    margin-bottom: 20px;
+    transition: 1s;
+    
+}
+
+.image{
+    width: 100%;
+}
+.welcome {
+    text-align: center;
+    margin-top: 210px; 
+ }
+
+.but1 {
+    background-color: rgba(244, 128, 71, 1);
+    border: solid rgba(43, 104, 156, 1) 0px;
+    cursor: pointer;
+    color:white;
+    border-radius: 50px;
+    width: 152px;
+    font-size: 15pt;
+    padding: 15px 0;
+    margin-top: 30px;
+    transition: 1s;
+ }
+.but1:hover{
+    background-color: rgb(180, 180, 48);
+    box-shadow: 0 10px 10px 0 rgba(5, 210, 255, 0.2), 0 1px 20px 0 rgba(0,0,0,0.19);   
+ }
+
+ .but2{
+   
+    border: solid white 1px;
+    cursor: pointer;
+    color:white;
+    border-radius: 50px;
+    width: 120px;
+    font-size: 12pt;
+    text-align: center;
+    padding: 12px 0;
+    box-sizing: border-box;
+    margin: 30px 85px 0 0;
+    float: right; 
+    
+ }
+.but2:hover{
+    background-color: white;
+    color:rgba(244, 128, 71, 1);
+
+/*///////////////  part 2 /////////////*/  
+
+}
+.part-2{
+   max-width: 1280px;
+   width: 100%;
+   margin: 0 auto;
+   text-align: center;
+ }
+
+.part-2 h1{
+    text-align: center;
+    font-size: 48px; 
+    line-height: normal;
+    font-family: wf_cf7d97a20343496aae3290b27;
+    transition: 1s;
+    
+}
+
+.part-2 ul{
+    padding: 80px 0;
+    text-align: center;
+}
+
+.arms1{
+    vertical-align: top;
+    text-align: center;
+    display: inline-block;
+    width: 15%; 
+    margin: 0 25px;
+}
+
+.btn2{
+    background-color: rgba(244, 128, 71, 1);
+    border: solid rgba(43, 104, 156, 1) 0px;
+    cursor: pointer;
+    color:white;
+    border-radius: 50px;
+    width: 152px;
+    font-size: 15pt;
+    padding: 15px 0;
+    margin-bottom: 70px;
+    transition: 1s;
+
+}
+.btn2:hover{
+    background-color: rgb(180, 180, 48);
+    box-shadow: 0 10px 10px 0 rgba(5, 210, 255, 0.2), 0 1px 20px 0 rgba(0,0,0,0.19);   
+ }
+
+
+.arms1 h3{
+    color: #363636;
+    font-family: wfont_375882_3c71cc9591374920b133851deb004b5b, wf_3c71cc9591374920b133851de, orig_helvetica_neue_w_01_75_bold;
+    font-size: 20px;
+}
+
+.arms-comment {
+    font-size: 16px; 
+    font-family: helveticaneuew01-45ligh, sans-serif; 
+    color:#363636}
+
+/*///////////////  part 3 /////////////*/
+
+
+.part-2 .header3{
+    font-size: 48px;
+    text-align: center;
+    font-family: wfont_375882_31e831c0911a40c99db10dac0fc7f43b,wf_31e831c0911a40c99db10dac0,orig_helvetica_neue_w_01_75_bold;
+    transition: 1s;
+    margin: 60px 0 40px;
+    line-height: normal;
+}
+
+.part-2 .header3-p{
+    font-family: wfont_375882_2b088f24f6274a89b41c5419ef556f2b,wf_2b088f24f6274a89b41c5419e,orig_helvetica_neue_w_01_65_medium;
+    color: #1C1C1C;
+    text-align: center;
+    font-size: 20px;
+    margin-bottom: 70px;
+}
+
+
+.pic-pac{
+    display: inline-block;
+    margin: 3px;
+    box-sizing: border-box;
+    position: relative;
+    
+}
+
+.hovertor{
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    transition: opacity 300ms ease-out;
+    background-color: rgb(41, 39, 39);
+    opacity: 0;
+    position: absolute; 
+    border-radius: 7px;
+}
+
+.hovertor:hover{
+    opacity: 0.8;  
+}
+
+
+.txt-hover{
+    display: inline-block;
+    color:white;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    position: absolute;
+    border: solid 0.5px white; 
+    padding: 10px 20px;
+    border-radius: 60px;
+}
+
+/*///////////////  part 4 /////////////*/
+
+.part-4{
+    text-align: center;
+    padding-bottom: 80px;
+}
+
+.but4{
+    background-color: rgba(244, 128, 71, 1);
+    border: solid rgba(43, 104, 156, 1) 0px;
+    cursor: pointer;
+    color:white;
+    border-radius: 50px;
+    width: 220px;
+    font-size: 15pt;
+    padding: 15px 0;
+    margin-top: 30px;
+    transition: 1s;
+}
+
+.but4:hover{
+    background-color: rgb(180, 180, 48);
+    box-shadow: 0 10px 10px 0 rgba(5, 210, 255, 0.2), 0 1px 20px 0 rgba(0,0,0,0.19);
+}
+
+/*///////////////  part 5 /////////////*/
+
+
+footer{
+    background-color: rgb(237, 237, 238);
+    padding: 70px 0 0 0;
+    
+}
+
+.footer-head{
+    text-align: center;
+    color: #363636;
+    font-size: 36px;
+    font-weight: 100;
+    font-family: helveticaneuew01-thin,sans-serif;
+    margin-bottom: 90px;
+    transition: 1s;
+    
+}
+.wix{
+    font-size: 36px;
+    text-decoration: none;
+    color: #1C1C1C;
+    font-family: wfont_375882_3c71cc9591374920b133851deb004b5b, wf_3c71cc9591374920b133851de, orig_helvetica_neue_w_01_75_bold;
+}
+
+.privacy{
+    margin: 0 2% 0 10%;
+    border-right: solid 1px black;
+    padding: 7px 2%;
+    font-size: 14px;
+    color: #20303C;
+    font-family: helveticaneuew01-45ligh,sans-serif;
+    transition: color 0.4s ease 0s;
+    text-decoration: none;
+    cursor: pointer;  
+}
+.privacy:hover{
+    color: rgb(52, 154, 238);
+}
+.terms{
+    font-size: 14px;
+    color: #20303C;
+    font-family: helveticaneuew01-45ligh,sans-serif;
+    transition: color 0.4s ease 0s;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.terms:hover{
+    color: rgb(52, 154, 238);
+}
+.end {
+    margin: 0 0 0 45%;
+    font-size: 14px;
+    font-family: helveticaneuew01-45ligh, sans-serif;
+}
+
+
+@media only screen and (min-width: 200px) and (max-width: 800px){
+
+    header h1 { font-size: 27px;}
+    .arms1{ margin: 20px 80px; width: 50%;}
+    .arms{ padding: 20px 0% 20px;}
+    .part-3 h1 {font-size: 35px;} 
+    .end {display: inline-block; margin: 20px 0 0 45%;}
+    
+}
+
+
+
+@media only screen and (min-width: 800px) and (max-width: 1100px){
+
+
+.arms{ padding: 20px 0% 20px;} 
+.arms1{ margin: 20px 80px;}
+.end {display: inline-block; margin: 20px 0 0 45%;}
+
+@media only screen and (min-width: 1100px) and (max-width: 1200px){
+
+.arms{ padding: 20px 0% 20px;} 
+
+.getstart{ margin-bottom: 550px;}
+.end {display: inline-block; margin: 20px 0 0 70%;}
+.arms1{ margin: 20px 80px;}
+
+@media only screen and (min-width: 1200px) and (max-width: 1550px){
+
+
+
+.arms{ padding: 20px 0% 20px;} 
+
+}
